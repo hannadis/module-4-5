@@ -6,8 +6,55 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-  
+    <link rel="stylesheet" href="style.css">
+    <div class="btn-group">
+      <button type="button" class="open-modal" data-open="modal1">
+        open first modal 
+      </button>
+      <button type="button" class="open-modal" data-open="modal2">
+        open second modal
+      </button>
+    </div>
+    
+    <div class="modal" id="modal1" data-animation="slideInOutLeft">
+      <div class="modal-dialog">
+        <header class="modal-header">
+          Lorem ipsum 
+          <button class="close-modal" aria-label="close modal" data-close>
+            ✕  
+          </button>
+        </header>
+        <section class="modal-content">
+          <p><strong>click X or Esc To close </strong></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+          
+        </section>
+        <footer class="modal-footer">
+          Lorem Ipsum
+        </footer>
+      </div>
+    </div>
+    
+    <div class="modal" id="modal2" data-animation="mixInAnimations">
+      <div class="modal-dialog">
+        <header class="modal-header">
+         lorem 
+          <button class="close-modal" aria-label="close modal" data-close>
+            ✕  
+          </button>
+        </header>
+        <section class="modal-content">
+          <p><strong>Click X or Esc to close</strong></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus reprehenderit accusamus totam ratione! Nesciunt, nemo dolorum recusandae ad ex nam similique dolorem ab perspiciatis qui. Facere, dignissimos. Nemo, ea.</p>
+          
+        </section>
+        <footer class="modal-footer">
+          Lorem Ipsum
+        </footer>
+      </div>
+    </div>
+    
+   
 
     <script src="index.js"></script>
 </body>
